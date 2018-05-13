@@ -1,5 +1,18 @@
 # php-task-2-check-digit
-Check Digit Katas
+
+# Installation guide
+
+Simply pull this repo and run
+
+```
+composer install
+```
+
+# Images
+
+TBC
+
+# Check Digit Katas
 
 The check digit algorithm is defined as such:
 
@@ -38,3 +51,6 @@ For example, the value "20160513123"
 The check digit is "4".
 The generated reference number is "201605131234".
 
+# Task
+
+Generate a reference number for "543215432154321", and what is the check digit
