@@ -7,10 +7,21 @@ Simply pull this repo and run
 ```
 composer install
 ```
+![composer_install](https://github.com/myself379/php-task-2-check-digit/blob/master/images/composer_install.png)
 
-# Images
+then run
 
-TBC
+```
+phpunit
+```
+![phpunit](https://github.com/myself379/php-task-2-check-digit/blob/master/images/task-2-results.png)
+
+or if there is no phpunit install globally, run through the vendor directory
+
+```
+./vendor/phpunit/phpunit/phpunit
+```
+![vendor-phpunit](https://github.com/myself379/php-task-2-check-digit/blob/master/images/task-2-result-vendor-phpunit.png)
 
 # Check Digit Katas
 
@@ -29,28 +40,31 @@ Given a sequence of digits:
 -	The final digit is the check digit.
 
 For example, the value "20160513123"
-	2 => 2 * 3 = 6 (A)
-	0 => 0 * 5 = 0 (B)
-	1 => 1 * 7 = 7 (C)
-	6 => 6 * 3 = 18 (A)
-	0 => 0 * 5 = 0 (B)
-	5 => 5 * 7 = 35 (C)
-	1 => 1 * 3 = 3 (A)
-	3 => 3 * 5 = 15 (B)
-	1 => 1 * 7 = 7 (C)
-	2 => 2 * 3 = 6 (A)
-	3 => 3 * 5 = 15 (B)
+```
+2 => 2 * 3 = 6 (A)
+0 => 0 * 5 = 0 (B)
+1 => 1 * 7 = 7 (C)
+6 => 6 * 3 = 18 (A)
+0 => 0 * 5 = 0 (B)
+5 => 5 * 7 = 35 (C)
+1 => 1 * 3 = 3 (A)
+3 => 3 * 5 = 15 (B)
+1 => 1 * 7 = 7 (C)
+2 => 2 * 3 = 6 (A)
+3 => 3 * 5 = 15 (B)
 
-	A = 6 + 18 + 3 + 6 = 33
-	B = 0 + 0 + 15 + 15 = 30
-	C = 7 + 35 + 7 = 49
-	S = 33 + 30 + 49 = 112
+A = 6 + 18 + 3 + 6 = 33
+B = 0 + 0 + 15 + 15 = 30
+C = 7 + 35 + 7 = 49
+S = 33 + 30 + 49 = 112
 
-	112 => 1 + 1 + 2 = 4
+112 => 1 + 1 + 2 = 4
+```
 	
 The check digit is "4".
+
 The generated reference number is "201605131234".
 
 # Task
 
-Generate a reference number for "543215432154321", and what is the check digit
+Generate a reference number for "543215432154321", and what is the check digit.
