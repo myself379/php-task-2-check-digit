@@ -1,4 +1,4 @@
-# php-task-2-check-digit
+# Check Digit Katas
 
 # Installation guide
 
@@ -23,7 +23,7 @@ or if there is no phpunit install globally, run through the vendor directory
 ```
 ![vendor-phpunit](https://github.com/myself379/php-task-2-check-digit/blob/master/images/task-2-result-vendor-phpunit.png)
 
-# Check Digit Katas
+# Problem statement
 
 The check digit algorithm is defined as such:
 
